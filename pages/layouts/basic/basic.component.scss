@@ -1,0 +1,147 @@
+header {
+  background-color: #222;
+ 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.forex-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'MJ Bold', cursive;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style:none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.nav-links li a.active {
+  font-weight: bold;
+}
+
+.cta-buttons {
+  display: flex;
+  align-items: center;
+}
+
+
+.login-button,
+.signup-button ,.logout-button{
+  background-color: #ff9f00;
+  color: #fff;
+  padding: 11px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover,
+.signup-button:hover ,.logout-button:hover{
+  background-color: #e67e00;
+  transform: scale(1.1);
+}
+
+
+/* Footer styles */
+footer {
+  background-color: #222;
+  padding: 20px 0;
+  margin-top: 80px;
+  
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: red; /* Change to the desired hover color */
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  margin-bottom: 30px;
+  
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+

@@ -1,0 +1,162 @@
+
+
+ .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-left: 300px; */
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.send-money-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.btn-send-money {
+  background-color: lightgreen;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-bottom: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.card-header {
+  text-align: center;
+}
+
+.card-body {
+  position: relative;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 150px;
+  background-color: #fff;
+}
+
+label {
+  font-weight: bold;
+}
+
+.dropdown::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.dropdown select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  float: left;
+}
+
+.card {
+  width: 400px;
+  margin: -10px 0 0 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: -70px;
+  left: 180px;
+}
+
+
+
+
+
+.dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+ 
+  
+}
+
+.dropdown {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.exchange-rate-table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+.exchange-rate-table th,
+.exchange-rate-table td {
+  padding: 10px;
+  text-align: left;
+ 
+  border-bottom: 1px solid #ddd;
+}
+
+.exchange-rate-table th {
+  font-weight: bold;
+}
+
+.exchange-rate-table tbody tr:last-child td {
+  border-bottom: none;
+}
